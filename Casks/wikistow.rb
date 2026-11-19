@@ -6,9 +6,9 @@
 cask "wikistow" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.27.2"
-  sha256 arm:   "f952ea9f7d3552702cf0de19c2129e989fc89349b3e8b81b1db71b4d6d0dbd71",
-         intel: "3b96446abb1b1e97a77562267e5612ae76f94c4c569d2e7be498022071a82ee2"
+  version "0.28.0"
+  sha256 arm:   "8dd1ecdf5411f919ec6b9f89c6d385bf762a6cd3069562b8fb83235e27d76db4",
+         intel: "d5f8941dddb2206a8b49e92cfb82739e6e47da4e17054c68565076a83ea0c7e1"
 
   url "https://github.com/skint007/wikistow/releases/download/v#{version}/wikistow-desktop-#{version}-macos-#{arch}.zip"
   name "WikiStow"
